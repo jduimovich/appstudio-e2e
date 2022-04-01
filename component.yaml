@@ -1,0 +1,13 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Component
+metadata:
+  name: my-component 
+spec:
+  componentName: my-component
+  application: my-application
+  source:
+    git:
+      url: https://github.com/jduimovich/devfile-sample-code-with-quarkus
+  build:
+    containerImage: quay.io/jduimovich0/devfile-sample-code-with-quarkus
+  

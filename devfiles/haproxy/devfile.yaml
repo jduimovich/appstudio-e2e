@@ -8,14 +8,14 @@ metadata:
 components:
   - name: outerloop-build
     image:
-      imageName: frontend:latest
+      imageName: haproxy:latest
       dockerfile:
-        uri: services/frontend/Dockerfile
-        buildContext: services/frontend
+        uri: services/haproxy/Dockerfile
+        buildContext: services/haproxy
         rootRequired: false
   - name: outerloop-deploy
     kubernetes:
-      uri: deploy/frontend/deployment.yaml
+      uri: deploy/haproxy/deployment.yaml
 commands:
   - id: build-image
     apply:

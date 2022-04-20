@@ -1,0 +1,14 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Component
+metadata:
+  name: haproxy
+spec:
+  componentName: haproxy
+  application: graphtuitous-as
+  source:
+    git:
+      url: https://github.com/jduimovich/graphtuitous
+      devfileUrl: devfiles/haproxy/devfile.yaml
+  build:
+    containerImage: quay.io/jduimovich0/haproxy
+  

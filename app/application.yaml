@@ -5,4 +5,8 @@ metadata:
 spec:
   description: "Graphtuitous built in App Studio"
   displayName: graphtuitous-in-app-studio
+  gitOpsRepository:
+    url:  https://github.com/northdepot/graphtuitous-in-app-studio-app-e2e-live-standard
+  appModelRepository:
+    url:  https://github.com/northdepot/graphtuitous-in-app-studio-app-e2e-live-standard
 

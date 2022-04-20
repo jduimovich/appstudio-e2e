@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace: graphtuitous-as
+    namespace: app-e2e
     server: 'https://kubernetes.default.svc'
   source:
-    path: deploy
-    repoURL: 'https://github.com/jduimovich/graphtuitous.git'
+    path: components
+    repoURL: 'https://github.com/northdepot/graphtuitous-in-app-studio-app-e2e-live-standard.git'
     targetRevision: HEAD
     directory:
       recurse: true

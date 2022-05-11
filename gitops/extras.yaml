@@ -10,7 +10,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: add-ons
-    repoURL: ' https://github.com/jduimovich/appstudio-e2e.git'
+    repoURL: 'https://github.com/jduimovich/appstudio-e2e.git'
     targetRevision: HEAD
     directory:
       recurse: true

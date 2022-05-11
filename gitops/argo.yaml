@@ -9,7 +9,7 @@ spec:
     namespace: app-e2e
     server: 'https://kubernetes.default.svc'
   source:
-    path: components
+    path: .
     repoURL: 'https://github.com/northdepot/graphtuitous-in-app-studio-app-e2e-live-standard.git'
     targetRevision: HEAD
     directory:

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: graphtuitous-as
+  name: graphtuitous-extras
   namespace: openshift-gitops
 spec:
   destination:
@@ -9,8 +9,8 @@ spec:
     namespace: app-e2e
     server: 'https://kubernetes.default.svc'
   source:
-    path: components
-    repoURL: 'https://github.com/northdepot/graphtuitous-in-app-studio-app-e2e-live-standard.git'
+    path: add-ons
+    repoURL: ' https://github.com/jduimovich/appstudio-e2e.git'
     targetRevision: HEAD
     directory:
       recurse: true

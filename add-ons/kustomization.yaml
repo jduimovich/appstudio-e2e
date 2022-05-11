@@ -1,0 +1,5 @@
+bases:
+- service.yaml
+- frontend/service.yaml
+- ha-proxy/service.yaml
+- ha-proxy/route.yaml  

@@ -7,3 +7,4 @@ oc apply -f app/application.yaml
 bash install-secret.sh
 sleep 10
 oc apply -f app 
+oc apply -f gitops 

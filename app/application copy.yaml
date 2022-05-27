@@ -1,0 +1,7 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Application
+metadata:
+  name: graphtuitous-as 
+spec:
+  description: "Graphtuitous built in App Studio"
+  displayName: graphtuitous-in-app-studio

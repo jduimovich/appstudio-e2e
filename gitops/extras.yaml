@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace: app-e2e
+    namespace: NS_WILL_BE_FILLED_IN
     server: 'https://kubernetes.default.svc'
   source:
     path: add-ons
-    repoURL: 'https://github.com/jduimovich/appstudio-e2e.git'
+    repoURL: REPO_WILL_BE_FILLED_IN
     targetRevision: HEAD
     directory:
       recurse: true
